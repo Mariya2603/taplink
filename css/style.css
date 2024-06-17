@@ -62,3 +62,44 @@ body {
    line-height: 15px;
    margin-top: 4px;
 }
+.card {
+   border-radius: 10px;
+   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+   background: rgb(255, 255, 255);
+   margin-top: 12px;
+   margin-bottom: 12px;
+   padding: 20px;
+}
+.buttons {
+   display: flex;
+   justify-content: space-between;
+   max-width: 247px;
+   margin: auto;
+   gap: 10px;
+   margin-bottom: 8px;
+}
+.button {
+   background-color: black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 31px;
+   flex-shrink: 1;
+   width: 100%;
+   border-radius: 5px;
+   text-decoration: none;
+   color:white;
+   font-size: 12px;
+   font-weight: 500;
+   line-height: 15px;
+   gap: 10px;
+}
+.button.vk {
+   background-color: rgb(76, 117, 163);
+}
+.button.tg {
+   background-color: rgb(36, 161, 222);
+}
+.button.yt {
+   background-color: rgb(255, 0, 0);
+}
